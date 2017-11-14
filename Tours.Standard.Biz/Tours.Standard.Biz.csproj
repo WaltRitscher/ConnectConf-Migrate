@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tours.NET.DAL\Tours.NET.DAL.csproj" />
+    <ProjectReference Include="..\Tours.Standard.DAL\Tours.Standard.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>..\..\ReferencedAssemblies\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -12,3 +12,4 @@ namespace Tours.NET.DAL.Properties
     }
   }
 }
+//Tours.NET.DAL.Properties.Settings.Default.ToursConnectionString
