@@ -160,7 +160,7 @@ namespace Tours.Standard.BizNew
     }
     public List<Tour> GetTours()
     {
-      return null;
+      return _tourList;
     }
   }
   public class Tour
