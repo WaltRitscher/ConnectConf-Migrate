@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tours.Standard.Biz", "Tours
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tours.Standard.DAL", "Tours.Standard.DAL\Tours.Standard.DAL.csproj", "{DDF62BF3-4C65-417F-A33C-9CBCF40A73AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".MigrateClassLibs-Done", ".MigrateClassLibs-Done", "{0E6A7578-5434-4DDD-A7FE-BFCDAEE41F49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
