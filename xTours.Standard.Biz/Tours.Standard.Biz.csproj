@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tours.NET.DAL\Tours.NET.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
