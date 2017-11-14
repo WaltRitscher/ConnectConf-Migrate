@@ -25,6 +25,8 @@ namespace Tours.UWP
         public MainPage()
         {
             this.InitializeComponent();
+      ToursListView.ItemsSource = Tours.NET.Biz.Tours.Current.GetTours();
+      
         }
     }
 }
