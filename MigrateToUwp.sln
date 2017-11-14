@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tours.NET.Biz", "Tours.NET.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tours.NET.WinForms", "Tours.NET.WinForms\Tours.NET.WinForms.csproj", "{BF1DB501-61E0-453A-9270-834F180734BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Standard", ".NET Standard", "{56134ABB-F562-4416-B727-29F345003FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

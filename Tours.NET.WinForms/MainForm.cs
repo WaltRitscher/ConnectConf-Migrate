@@ -28,9 +28,7 @@ namespace Tours.NET.WinForms
       listBox1.DataSource = Tours.NET.Biz.Tours.Current.GetTours();
       listBox1.DisplayMember = "TourName";
 
-      //DataBindings.Add(propertyName: "Text", 
-      //                 dataSource: listBox1.DataSource,
-      //                 dataMember: "TourName");
+
       textBoxTourName.DataBindings.Add(propertyName: "Text",
                     dataSource: listBox1.DataSource,
                     dataMember: "TourName");
