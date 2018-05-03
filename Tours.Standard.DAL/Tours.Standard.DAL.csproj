@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0-preview2-26406-04" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.0-preview2-26406-04" />
   </ItemGroup>
 
   <ItemGroup>
