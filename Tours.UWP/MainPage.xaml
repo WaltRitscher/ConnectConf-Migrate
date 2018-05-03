@@ -3,6 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Tours.UWP"
+  xmlns:biz="using:Tours.Standard.Biz"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" FontSize='24'>
@@ -10,10 +11,23 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<Pivot>
 			<PivotItem Header='Tours'>
-				<ListView x:Name='ToursListView'>
-					<TextBlock Text ='Example' />
-				</ListView>
-			</PivotItem>
+        <GridView x:Name='ToursGridView'
+									ItemsSource='{x:Bind AllTours}' >
+          <GridView.ItemTemplate>
+            <DataTemplate x:DataType='biz:Tour'>
+              <Grid Background='LightBlue'>
+                <StackPanel Margin='20' MaxWidth='400'>
+                  <SymbolIcon Symbol='Street'/>
+                  <TextBlock Text='{x:Bind TourName }' FontWeight='Bold' />
+                  <TextBlock Text='{x:Bind Description }'  TextWrapping='Wrap' MinWidth='380' MinHeight='60'/>
+                </StackPanel>
+              </Grid>
+            </DataTemplate>
+          </GridView.ItemTemplate>
+
+        </GridView>
+
+      </PivotItem>
 			<PivotItem Header='Tips'>
 				<Grid />
 			</PivotItem>

@@ -17,16 +17,20 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Tours.UWP
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
+  /// <summary>
+  /// An empty page that can be used on its own or navigated to within a Frame.
+  /// </summary>
+  public sealed partial class MainPage : Page
+  {
+    public MainPage()
     {
-        public MainPage()
-        {
-            this.InitializeComponent();
-      ToursListView.ItemsSource = Tours.NET.Biz.Tours.Current.GetTours();
-      
-        }
+      this.InitializeComponent();
+
+      // refactored the Biz library from DataSet to Lists (or perhaps EF)
+      // removed references to the the DAL, not needed.
+      AllTours = Tours.Standard.Biz.Tours.Current.GetTours();
+
     }
+    public List<Tours.Standard.Biz.Tour> AllTours { get; set; }
+  }
 }

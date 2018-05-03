@@ -23,9 +23,9 @@ namespace Tours.NET.WinForms
     {
 
 
-      dataGridViewTips.DataSource = Tours.NET.Biz.Tips.Current.GetTips();
-      dataGridViewTestimonials.DataSource = Tours.NET.Biz.Testimonials.Current.GetTestimonials();
-      listBox1.DataSource = Tours.NET.Biz.Tours.Current.GetTours();
+     // dataGridViewTips.DataSource = Tours.NET.Biz.Tips.Current.GetTips();
+    //  dataGridViewTestimonials.DataSource = Tours.NET.Biz.Testimonials.Current.GetTestimonials();
+      listBox1.DataSource = Tours.Standard.Biz.Tours.Current.GetTours();
       listBox1.DisplayMember = "TourName";
 
 
