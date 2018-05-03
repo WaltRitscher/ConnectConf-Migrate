@@ -28,6 +28,7 @@ namespace Tours.UWP
 
       // refactored the Biz library from DataSet to Lists (or perhaps EF)
       // removed references to the the DAL, not needed.
+      // removed the other standard projects
       AllTours = Tours.Standard.Biz.Tours.Current.GetTours();
 
     }
