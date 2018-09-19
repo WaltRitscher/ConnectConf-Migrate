@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Tours.NET.DAL {
+namespace Tours.DAL {
     
     
     /// <summary>
@@ -1821,7 +1821,7 @@ namespace Tours.NET.DAL {
         }
     }
 }
-namespace Tours.NET.DAL.ToursDataSetTableAdapters {
+namespace Tours.DAL.ToursDataSetTableAdapters {
     
     
     /// <summary>
@@ -1979,7 +1979,7 @@ namespace Tours.NET.DAL.ToursDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Tours.NET.DAL.Properties.Settings.Default.ToursConnectionString;
+            this._connection.ConnectionString = global::Tours.DAL.Properties.Settings.Default.ToursConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2314,7 +2314,7 @@ SELECT TourId, TourName, SeniorDiscountAvailable, KidFriendly, MultiDay, Region,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Tours.NET.DAL.Properties.Settings.Default.ToursConnectionString;
+            this._connection.ConnectionString = global::Tours.DAL.Properties.Settings.Default.ToursConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2706,7 +2706,7 @@ SELECT TourId, TourName, SeniorDiscountAvailable, KidFriendly, MultiDay, Region,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Tours.NET.DAL.Properties.Settings.Default.ToursConnectionString;
+            this._connection.ConnectionString = global::Tours.DAL.Properties.Settings.Default.ToursConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

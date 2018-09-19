@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tours.NET.DAL.ToursDataSetTableAdapters;
-using static Tours.NET.DAL.ToursDataSet;
+﻿using Tours.DAL.ToursDataSetTableAdapters;
+using static Tours.DAL.ToursDataSet;
 
-namespace Tours.NET.Biz
+namespace Tours.Biz
 {
   public class Tours
   {
